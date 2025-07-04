@@ -26,8 +26,6 @@ int main() {
   for(i=0 && j=0; matriz[i][j+n] != matriz[i][j+1]; j++){
   
    if(j<9){
-      
-      matriz[i][1] != matriz[i][j]
       matriz[i][2] != matriz[i][j]
       matriz[i][3] != matriz[i][j]
       matriz[i][4] != matriz[i][j] 

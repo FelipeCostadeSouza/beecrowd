@@ -3,15 +3,15 @@
 
 int main()
 {
-    int Cdapeça, Ndepeças, Cdapeça2, Ndepeças2;
-    double preço, preço2;
+    int Cdapeca, Ndepecas, Cdapeca2, Ndepecas2;
+    double preco, preco2;
     
-    scanf("%d %d %lf", &Cdapeça, &Ndepeças, &preço);
-    scanf("%d %d %lf", &Cdapeça2, &Ndepeças2, &preço2);
+    scanf("%d %d %lf", &Cdapeca, &Ndepecas, &preco);
+    scanf("%d %d %lf", &Cdapeca2, &Ndepecas2, &preco2);
     double valor;
-    valor= (double)Ndepeças * preço;
+    valor= (double)Ndepecas * preco;
     double valor2;
-    valor2= (double)Ndepeças2 * preço2;
+    valor2= (double)Ndepecas2 * preco2;
     
     printf("VALOR A PAGAR: R$ %.2lf\n", valor2+valor);
     

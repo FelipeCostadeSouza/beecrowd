@@ -12,7 +12,7 @@ int main()
 	double result2 = (-b-raiz_de_delta)/(2*a);
 
 	if(a==0.0 || delta<0) {
-		printf("Impossivel calcular");
+		printf("Impossivel calcular\n");
 	} else {
 		printf("R1 = %.5f\n", result1);
 		printf("R2 = %.5f\n", result2);

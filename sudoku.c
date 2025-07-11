@@ -25,7 +25,7 @@ int main() {
 
 	for(int i = 0; i < 81; i++) {
 		printf("%d ", *(pmatriz + i));
-		int tamanho = sizeof(matriz) / sizeof(&matriz[0][0]);
+		int tamanho = sizeof(matriz) / sizeof(matriz[0][0]);
 	}
 
 
